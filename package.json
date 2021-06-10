@@ -1,0 +1,27 @@
+{
+  "name": "t4-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-studio:toshi-studio/t4-discord-bot.git"
+  },
+  "keywords": [
+    "T4",
+    "census"
+  ],
+  "author": "Toshi Studio",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "firebase-admin": "^9.9.0",
+    "fs": "0.0.1-security"
+  }
+}
